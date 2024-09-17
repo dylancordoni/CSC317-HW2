@@ -14,3 +14,11 @@ table, th, td {
 td {
 	text-align: center;
 }
+
+h1, h2 {
+	text-align: center;
+}
+
+img {
+	margin: 0 auto;
+}
