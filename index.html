@@ -39,10 +39,10 @@
 				</li>
 			</ul>
 		</nav>
-		<h1>Assignment 5</h1>
+		<h1 id="assignment">Assignment 5</h1>
 		<h2 class="css-question">How to Apply CSS to HTML</h2>
 		<p class="css-question">If you're wondering on how to include an external CSS file into your HTML code, it's time to listen up. Make sure you know the path to your CSS file relative to your HTML file. Once you know that, all you need to do is link the file path in your HTML code inside your <code>&lt;head&gt;&lt;/head&gt;</code> element.</p>
-		<p class="css-question">For example: </p>
+		<p class="example">For example: </p>
 		<pre>
 	&lt;!DOCTYPE html&gt;
 	&lt;html&gt;
@@ -53,6 +53,30 @@
 		</pre>
 		<p class="css-question">In this example, the path to the file would be <code>&quot;./resources/style.css&quot;</code>. Once this your CSS file is linked to your HTML, all styling should be applied!</p>
 		<h2 class="js-question">How to Use JavaScript in a Webpage</h2>
-		<p class="js-question"></p>
+		<p class="js-question">Now that we learned how to include an external CSS file into your HTML code, let's try to do the same with a JavaScript. Much of the same principles apply; however, instead of using a <code>&lt;link&gt;</code> element, we'll use the <code>&lt;script&gt;</code> element inside of the <code>&lt;body&gt;</code> element.</p>
+		<p class="example">For example: </p>
+		<pre>
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+		&lt;body&gt;
+			&lt;script src="./resources/script_src.js"&gt;
+			&lt;/script&gt;
+		&lt;/body&gt;
+	&lt;/html&gt;
+		</pre>
+		<p class="js-question">As you can see, we are using the <code>src</code> attribute instead of the <code>href</code> attribute we used for linking the CSS file. Assuming you're JavaScript file has something in it, it should now show up on the page! But what if we wanted to add some JavaScript inside our HTML without using an external file? Well, we can do that too! Similarly to the external JavaScript file, we'll be using the <code>&lt;script&gt;</code> element inside of the <code>&lt;body&gt;</code> element. Instead of having your JavaScript in its own file, we'll put it right inside the HTML code.</p>
+		<p class="example">For example: </p>
+		<pre>
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+		&lt;body&gt;
+			&lt;h1 id=&quot;test&quot;&gt;Place Holder Text&lt;/h1&gt;
+			&lt;script&gt;
+				document.getElementById("test").innerHTML = "My Cool Webpage";
+			&lt;/script&gt;
+		&lt;/body&gt;
+	&lt;/html&gt;
+		</pre>
+		<p class="js-question">As you can see, this should replace the text in the <code>&lt;h1&gt;</code> with something a little more suited for your webpage.</p>
 	</body>
 </html>

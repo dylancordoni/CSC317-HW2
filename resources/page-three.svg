@@ -1,7 +1,7 @@
 <svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
   	<rect width="500" height="300" fill="rgb(53, 88, 94)"/>
     <path fill="none" stroke="lightgrey" d="M 125 75 L 125 225 L 375 150 L 125 75"/>
-    <cirlce r="5" fill="rgb(32, 7, 62)">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 125 75 L 125 225 L 375 150 L 125 75"/>
+    <circle r="10" fill="rgb(32, 7, 62)">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M 125 75 L 125 225 L 375 150 L 125 75"/>
     </circle>
 </svg>
