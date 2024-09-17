@@ -1,5 +1,5 @@
 body {
-	font-family: "Georgia", sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 p {
@@ -39,4 +39,14 @@ img {
 
 #assignment {
 	text-shadow: 1px 1px 1px green, 2px 2px 1px red, 3px 3px 1px blue;
+}
+
+.menue a:hover{
+	background-color: purple;
+	color: yellow;
+}
+
+.feet p {
+	font-size: 10px;
+	text-align: right;
 }
