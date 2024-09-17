@@ -1,9 +1,14 @@
+body {
+	font-family: "Georgia", sans-serif;
+}
+
 p {
 	color: red;
 }
 
 table {
 	width:30%;
+	margin: 0 auto;
 }
 
 table, th, td {
@@ -13,6 +18,10 @@ table, th, td {
 
 td {
 	text-align: center;
+}
+
+caption {
+	font-style: oblique;
 }
 
 h1, h2 {
